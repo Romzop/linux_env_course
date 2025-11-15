@@ -1,0 +1,10 @@
+    1  mkdir Lab02
+    2  cd Lab02
+    3  echo "this is log file 1" > log1.log
+    4  ls
+    5  date > log1.log
+    6  pwd >> log1.log
+    7  ls -l >> log1.log
+    8  mkdir Backup
+    9  cp *.log Backup
+   10  history >> Backup/history_rom316353820.txt
